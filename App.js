@@ -7,6 +7,9 @@ import Hellos from "./Hellos";
 import Bananas from "./Bananas";
 
 class HomeScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Home',
+  };
   render() {
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
